@@ -1,6 +1,6 @@
 # ML-Code-Analyzer
 The goal of this project is to use prompt engineering to create a ml code analyser using existing models. I an using hugging face free models as well as state of the art models to do the task. For a code i am using
-an example code, in that I will generate multiple chains of thoughts and calcultate self consistency amongst them. Naturally the chain with the highest consistency is the best. The goal is to take a ml code and help in improving it.
+an example code, in that I will generate multiple chains of thoughts and calcultate self consistency amongst them. Naturally the chain with the highest consistency is the best. The goal is to take a ml code and help in improving it, using a good model and its best possible result.
 
 ## Models used
 From hugging face, I tried the 3 models on kaggle which are standard small models:

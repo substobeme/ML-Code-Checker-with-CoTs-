@@ -17,3 +17,5 @@ At first I ran the example code for 2 chains. Only phi-2 was able to show that i
 ## Phi-2 results
 
 <img width="847" height="647" alt="Image" src="https://github.com/user-attachments/assets/0e141abd-6a34-43c6-a8b6-cf7a9ad49bf7" />
+
+<img width="960" height="362" alt="Image" src="https://github.com/user-attachments/assets/c3047235-cf6b-4710-b5f4-08d6f0f2e825" />

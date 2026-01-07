@@ -15,32 +15,41 @@ and also used perplexity pro(Sonar model)
 At first I ran the example code for 2 chains. Only phi-2 was able to show that it can generate properly with prompts. Then I used 20 chains for that model only to see the working and get best response. Basically, I wanted to get a good response for my prompt (which helps in the ml code analysis) by first choosing a model, 2ndly to pick the best answer from the model by generating different answer(chains) by using various temparatures to modify creativity. Finally, I also compared it to whether the result was good enough compared to a standard AI tool available to us(example: perplexity)
 
 ## Prompt Used
-Analyze this ML code line by line. Reference specific line numbers.
-
-    CODE:
-    {numbered_code}
+<|system|>
+    You are an expert ML engineer. Use step-by-step reasoning to analyze code.</s>
+    <|user|>
+    Analyze this ML code using chain of thought. Think through each step explicitly.
+   
     
-    Analyze step by step:
+    Let's think step by step:
     
-    Step 1: Data Loading (lines 1-3)
-    What issues in these specific lines?
+    Step 1: Understanding the Goal
+    What is this code trying to accomplish?
     
-    Step 2: Preprocessing (line 4)  
-    What's missing from this line?
+    Step 2: Data Analysis  
+    Examine the data handling and loading.
     
-    Step 3: Feature Selection (lines 5-6)
-    Issues with these exact lines?
+    Step 3: Preprocessing Quality
+    Evaluate the preprocessing steps.
     
-    Step 4: Train-Test Split (line 7)
-    What parameter is missing?
+    Step 4: Model Selection
+    Is the model choice appropriate?
     
-    Step 5: Model (lines 8-9)
-    Problems with this code?
+    Step 5: Training & Evaluation
+    How is training and evaluation done?
     
-    Step 6: Specific Fixes
-    Give exact code changes.
+    Step 6: Identify Issues
+    What problems or risks exist?
     
-    Be concrete. Quote line numbers.
+    Step 7: Recommendations
+    What improvements should be made?
+    
+    Work through each step carefully, explaining your reasoning.</s>
+    <|assistant|>
+    Let me think through this step by step:
+    
+    Step 1: Understanding the Goal
+    
 
 ## Phi-2 results
 

@@ -60,4 +60,8 @@ Use Pipeline for split-aware preprocess, add CV, class weights, EDA.
 
 Therefore using prompt engineering techniques(such as chains of thoughts with self consistency) we can choose and use pre-existing models for very specific task, in my case a ML Code Analyzer.
 
+## Blockers
+
+Most of the free hugging face models are really not good for CoTs especially for my task as they either kept repeating the prompt or missing the goal of analyzing the codde. I also tried using api calls instead from hugging face but I kept getting authorization issues, so I opted for just downloading small models.
+
 
